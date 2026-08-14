@@ -23,12 +23,6 @@ Hi! I'm a high school student working on my final research project (TDR) about s
 
 ---
 
-## Try It Here
-
-👉 [https://pandemq.github.io/Flight-fuel-Simulator-School-Project/simulador-vol-tdr_realease.html](https://pandemq.github.io/Flight-fuel-Simulator-School-Project/simulador-vol-tdr_realease.html)
-
----
-
 ## What I'd Like Feedback On
 
 Since I'm new to this, any advice is welcome! Specifically:
