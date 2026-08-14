@@ -5,44 +5,42 @@
 
 ---
 
-## Overview
+## About This Project
 
-This is an interactive flight simulator developed as part of a high school research project (TDR). The tool allows users to compare the environmental and economic impact of traditional jet fuel (JET-A1) versus liquid hydrogen (LH2) on real flight routes across Europe.
+Hi! I'm a high school student working on my final research project (TDR) about sustainable aviation fuels. I built this flight simulator to compare kerosene (JET-A1) vs liquid hydrogen (LH2). The interface is in **Catalan** because it's required for my school project.
 
-The interface is in **Catalan** as it is a requirement for the school project.
+⚠️ **Important:** I'm very new to programming. This is literally my first real project. I know it's not perfect, but I'm learning! If you have any suggestions, feedback, or ideas for improvement, please let me know. I'd really appreciate it.
 
 ---
 
-## Features
+## What It Does
 
-- **9 aircraft models**:
-  - Airbus A320, A330-300, A350-900, A380
-  - Boeing 737-800, 777-300ER, 787-9, 747-8
-  - Eurofighter Typhoon (military)
+- Select from 9 aircraft (A320, B737, A330, B777, A350, B787, A380, B747, Eurofighter)
+- Choose origin/destination airports across Spain, UK, France and Germany
+- Compare kerosene (JET-A1) vs hydrogen (LH2)
+- See the route on a map with real waypoints
+- Calculate distance, time, fuel consumption, CO₂ emissions and cost
 
-- **25+ airports** across:
-  - Spain
-  - United Kingdom
-  - France
-  - Germany
+---
 
-- **Real flight routes** with actual waypoints (SALAS, RAMON, RUBEO, CMA, etc.)
+## Try It Here
 
-- **Interactive map** powered by Leaflet.js
+👉 [https://pandemq.github.io/Flight-fuel-Simulator-School-Project/simulador-vol-tdr_realease.html](https://pandemq.github.io/Flight-fuel-Simulator-School-Project/simulador-vol-tdr_realease.html)
 
-- **CO₂ emissions comparison** between kerosene and hydrogen
+---
 
-- **Cost analysis** per flight route
+## What I'd Like Feedback On
 
-- **Real-time flight data**:
-  - Distance (great-circle route)
-  - Flight time
-  - Fuel consumption
-  - CO₂ emissions
-  - Total cost
+Since I'm new to this, any advice is welcome! Specifically:
+
+- Is the interface easy to understand (even if you don't speak Catalan)?
+- Does anything look broken or not work properly?
+- What features would you add to make it more useful?
+- Does it look okay on mobile, or only on desktop?
+- Any coding tips or best practices I should know?
 
 ---
 
 ## How It Works
 
-The simulator calculates fuel consumption using a simplified Breguet equation:
+The fuel consumption is calculated using the Breguet equation:
